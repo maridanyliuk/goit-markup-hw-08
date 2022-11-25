@@ -1,0 +1,25 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--text-color);
+    background-color: var(--white);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+
+:root {
+    --brand-color: #2196F3;
+    --text-color: #757575;
+    --background-color: #2F303A;
+    --title-color: #212121;
+    --white: #fff;
+    --team-background: #F5F4FA;
+    --grey: #EEEEEE;
+    --black: #000000;
+    --semi-grey: #ECECEC;
+    --main-button-hover: #188CE8;
+    --network: #AFB1B8;
+    --gradient: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4));
+}

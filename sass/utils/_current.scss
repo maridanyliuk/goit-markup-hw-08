@@ -1,0 +1,15 @@
+.current {
+    color: var(--brand-color);
+
+    &::after {
+            content: '';
+            width: 100%;
+            background-color: var(--brand-color);
+            display: block;
+            border-radius: 2px;
+            height: 4px;
+            position: absolute;
+            bottom: 0;
+        }
+}
+
